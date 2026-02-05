@@ -1,0 +1,28 @@
+# =============================================================================
+# OMLY Data Download - .gitignore
+# =============================================================================
+
+# Secrets - NEVER COMMIT
+config/secrets.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data output folders
+json/
+csv/
+excel/
+
+# Google Cloud Service Account key
+*.json
+!secrets_example.py
